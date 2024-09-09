@@ -51,7 +51,7 @@ const HospitalizationsChart = ({ monthlyHospitalizations, months, selectedMonth,
                     <YAxis />
                     <Tooltip />
                     <Legend />
-                    <Line type="monotone" dataKey="value" stroke="#1f2937" activeDot={{ r: 8 }} />
+                    <Line type="monotone" name={t('Hospitalizations')} dataKey="value" stroke="#1f2937" activeDot={{ r: 8 }} />
                 </LineChart>
             </ResponsiveContainer>
         </div>

@@ -23,7 +23,7 @@ const DoctorsChart = ({ doctorSpecialtiesData }) => {
                     <YAxis />
                     <Tooltip />
                     <Legend />
-                    <Bar dataKey="numberOfDoctors" fill="#1f2937" />
+                    <Bar name={t('Number of Doctors')} dataKey="numberOfDoctors" fill="#1f2937" />
                 </BarChart>
             </ResponsiveContainer>
         </div>
